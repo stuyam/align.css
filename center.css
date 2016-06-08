@@ -1,26 +1,31 @@
-.center-inline{
+.center-inline {
   width: 100%;
   text-align: center;
-  display: inline-block;
-}
+  display: inline-block; }
 
-.center-x{
+.center-x {
   position: relative;
   display: table;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
-.center-xy{
+.center-xy {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  align-items: center;
-}
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
-.center-y{
+.center-y {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  /*justify-content: center;*/
-  align-items: center;
-}
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
