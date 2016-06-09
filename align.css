@@ -1,13 +1,16 @@
-/****** TEXT ******/
-.align-text-left {
+/****** TEXT & INLINE******/
+.align-text-left,
+.align-inline-left {
   text-align: left;
 }
 
-.align-text-center {
+.align-text-center,
+.align-inline-center {
   text-align: center;
 }
 
-.align-text-right {
+.align-text-right,
+.align-inline-right {
   text-align: right;
 }
 
@@ -17,18 +20,6 @@
 .align-inline-right{
   width: 100%;
   display: inline-block;
-}
-
-.align-inline-left {
-  text-align: left;
-}
-
-.align-inline-center {
-  text-align: center;
-}
-
-.align-inline-right {
-  text-align: right;
 }
 
 /****** BLOCK ******/
