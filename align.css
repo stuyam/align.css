@@ -12,22 +12,23 @@
 }
 
 /****** INLINE ******/
-.align-inline-left {
+.align-inline-left,
+.align-inline-center,
+.align-inline-right{
   width: 100%;
-  text-align: left;
   display: inline-block;
+}
+
+.align-inline-left {
+  text-align: left;
 }
 
 .align-inline-center {
-  width: 100%;
   text-align: center;
-  display: inline-block;
 }
 
 .align-inline-right {
-  width: 100%;
   text-align: right;
-  display: inline-block;
 }
 
 /****** BLOCK ******/
