@@ -1,3 +1,3 @@
-# center.css
+# align.css
 
-Trying to find a nice way of having css helpers for centering on the web. Centering has always been hard, it has gotten a lot easier with things like flex-box, but how can we make it dead simple with helper classes?
+Trying to find a nice way of having css helpers for centering and aligning on the web. Centering has always been hard, it has gotten a lot easier with things like flex-box, but how can we make it dead simple with helper classes?
